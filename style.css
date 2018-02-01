@@ -5,6 +5,12 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.fixed {
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+}
+
 .mobile {
   display: block;
   background-image: url("assets/people-cycling.jpg");

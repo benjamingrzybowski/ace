@@ -7,13 +7,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active" id="move-over">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link js-scroll-trigger" href="template.php#top">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Course Info</a>
+                    <a class="nav-link js-scroll-trigger" href="template.php#go-here">Course Info</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Registration</a>
+                    <a class="nav-link js-scroll-trigger" href="template.php#go-here2">Registration</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="">Contact</a>

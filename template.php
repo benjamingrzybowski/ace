@@ -19,6 +19,7 @@
 
 <?php include "inc/main-nav.php" ?>
 
+<div id="top"></div>
 <header id="main-slide-show">
     <div class="mobile">
         <div class="pad">
@@ -52,7 +53,7 @@
     <img src="assets/btm-line.png">
 </div>
 </header>
-<main class="container pad">
+<main class="container pad" id="go-here">
     <div class="row pad">
         <div class="col-md-6">
             <img src="assets/post-race.png">
@@ -70,28 +71,16 @@
     </div>
 </section>
 <img src="assets/btm-line.png">
-<section class="container">
+<section class="container" id="go-here2">
     <div class="row pad">
         <div class="col-md-12">
             <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci veli</p>
         </div>
     </div>
 </section>
-<footer class="container-fluid pad">
-    <div class="row pad">
-        <div class="col-md-4">
-            <p>perspiciatis</p>
-            <p><i class="fa fa-envelope" aria-hidden="true"></i>Sed@perspiciatis</p>
-            <p><i class="fa fa-phone" aria-hidden="true"></i>0000000000</p>
-        </div>
-        <div class="col-md-4">
-            <h6>ACE multisport event</h6>
-        </div>
-        <div class="col-md-4">
-            <img src="assets/stick-run.png">
-        </div>
-    </div>
-</footer>
+
+<?php include "inc/footer.php" ?>
+
 </body>
 <script src="bootstrap4/js/jquery-easing.js"></script>
 <script src="bootstrap4/js/bootstrap.min.js"></script>
